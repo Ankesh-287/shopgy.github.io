@@ -1,0 +1,29 @@
+.search {
+    display: flex;
+    justify-content: center;
+
+}
+input{
+    display: flex;
+    background-color: rgb(233, 235, 236);
+    width: 83vmax;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    outline: none; 
+    padding-left: 6vmax;  
+}
+.searchBar::placeholder{
+    padding-left: 1px;
+    font-size: large;
+    position: relative;
+}
+.icon{
+    position: absolute;
+    top: 1%;
+    left: 6%;
+    fill: rgb(160, 162, 164);
+}

@@ -1,0 +1,40 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black; 
+    height: 60px;
+}
+.menu{
+    display: flex;
+    width: 48%;
+    color: white;
+    align-items: center;
+    justify-content: flex-start;
+}
+.menu > .tab:hover{
+    display: flex;
+    color: lightgreen;
+    border-bottom: 2px solid green;
+}
+div.options {
+    display: flex;
+    width: 35%;
+    justify-content: space-around;
+}
+.options > .icons:hover{
+    display: flex;
+    background-color: black;
+    fill: lightgreen;
+}
+.icons {
+    fill:white;
+    position: relative;
+}
+.user-menu{
+    position: absolute;
+    background-color: rgb(190, 186, 186);
+    right: 10px;
+    width:250px;    
+    height: 300px;
+}

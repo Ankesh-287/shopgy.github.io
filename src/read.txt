@@ -1,0 +1,2 @@
+This file is created for checking the ajax;
+so its working or not;

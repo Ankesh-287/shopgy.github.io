@@ -1,0 +1,15 @@
+.search{
+    display: flex;
+    justify-content: flex-end;
+}
+.pSearch{
+    display: flex;
+    background-color: rgb(233, 235, 236);
+    width: 25vmax;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    outline: none;
+    margin: 20px;
+}

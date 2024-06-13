@@ -1,0 +1,112 @@
+body{
+    background-color: rgb(134 142 175);
+    height: 100vh;
+
+}
+.signup-container{
+    display: flex;
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.login-container{
+    display: flex;
+    width: 100%;
+    margin: 0;
+    height: 100%;;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 1180px ) {
+    .products {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 832px) {
+
+}
+
+@media (max-width: 690px) {
+
+    .contact-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .c-panel1{
+        width: 100%;
+    }
+    .c-panel2{
+        width: 100%;
+    }
+    .msg-box{
+        width: 80%;
+    }
+}
+@media (max-width: 499px) {
+
+    .menu {
+        width: 79%;
+    }
+    .h-menu{
+        padding-left: 4px;
+    }
+    .dis{
+        margin: 2px;
+    }
+    .price{
+        font-size: 12px;
+    }
+    .rating{
+        font-size: 9px;
+    }
+    .f-menu{
+        font-size: 12px;
+    }
+    .contact-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .c-panel1{
+        width: 100%;
+    }
+    .c-panel2{
+        width: 100%;
+    }
+    .msg-box{
+        width: 80%;
+    }
+    .dash-dis{
+        margin-left: 15px;
+    }
+    .about-panel{
+        font-size: 12px;
+    }
+    .a-panel1{
+        margin-left: 30px;
+    }
+    .partition{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .dash-frame{
+        border: 7px solid rgb(236, 228, 228);
+    }
+    .dash-name{
+        font-size: 15px;
+    }
+    .dash-detail{
+        font-size: 8px;
+    }
+    .signup-container{
+        height: 64.8vmax;
+    }
+    .login-container{
+        height: 64.8vmax;
+    }
+}
+
